@@ -1,0 +1,94 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Data;
+using System.Data.SqlClient;
+using System.Web;
+using System.Configuration;
+
+namespace Freight
+{
+    public class DB
+    {
+    }
+
+
+    public class Connection_Query
+    {
+
+        string ConnectionString = ConfigurationManager.ConnectionStrings["Test"].ConnectionString;
+        SqlConnection con;
+
+
+        public void OpenObject()
+        {
+            con = new SqlConnection(ConnectionString);
+
+        }
+
+        public void OpenConnection()
+        {
+            con.Open();
+        }
+
+
+        public void CloseConnection()
+        {
+            con.Close();
+        }
+
+
+        public void ExecuteQueries(string Query_)
+        {
+            SqlCommand cmd = new SqlCommand(Query_, con);
+            cmd.ExecuteNonQuery();
+        }
+
+
+        public SqlDataReader DataReader(string Query_)
+        {
+            SqlCommand cmd = new SqlCommand(Query_, con);
+            SqlDataReader dr = cmd.ExecuteReader();
+            return dr;
+        }
+
+
+        public object ShowDataInGridView(string Query_)
+        {
+            SqlDataAdapter dr = new SqlDataAdapter(Query_, ConnectionString);
+            DataSet ds = new DataSet();
+            dr.Fill(ds);
+            object dataum = ds.Tables[0];
+            return dataum;
+        }
+
+        public void Login(string Username, string Password)
+        {
+            SqlConnection con = new SqlConnection(ConnectionString);
+            SqlCommand cmd = new SqlCommand("select * from Login where Email=@Email and Password=@Password", con);
+            cmd.Parameters.AddWithValue("@Email", Username);
+            cmd.Parameters.AddWithValue("@Password", Password);
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            //Connection open here   
+            con.Open();
+            int i = cmd.ExecuteNonQuery();
+            con.Close();
+            if (dt.Rows.Count > 0)
+            {
+               
+            }
+
+            else {
+                
+            }
+
+
+        }
+    }
+
+
+}
