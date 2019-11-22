@@ -1,0 +1,76 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <BLID>1</BLID>
+    <JobNo>1</JobNo>
+    <BLNo>das</BLNo>
+    <Shipper>Avishka</Shipper>
+    <ShipperAdd>vffyh</ShipperAdd>
+    <Consignee>Colombo Logistics World</Consignee>
+    <ConsigneeAdd>hgghf</ConsigneeAdd>
+    <NotifyParty>Colombo Logistics World</NotifyParty>
+    <NotifyPartyAdd>hfhg</NotifyPartyAdd>
+    <MarksandNumbers>dgss</MarksandNumbers>
+    <Description>cxgv</Description>
+    <GrossWeight>85.2</GrossWeight>
+    <NetWeight>80</NetWeight>
+    <NoOfPackages>2</NoOfPackages>
+    <ETA>1899-12-11T00:00:00+05:30</ETA>
+    <SOBDate>2019-11-21T00:00:00+05:30</SOBDate>
+    <POL>csz</POL>
+    <POD>das</POD>
+    <Vesel>abc</Vesel>
+    <Voyage>1812</Voyage>
+    <createddate>2019-11-22T11:29:51.233+05:30</createddate>
+    <updateddate>2019-11-22T12:27:58.08+05:30</updateddate>
+    <ContainerNO>abcd1234567</ContainerNO>
+  </Table>
+  <Table>
+    <BLID>2</BLID>
+    <JobNo>1</JobNo>
+    <BLNo>dfgd</BLNo>
+    <Shipper>Avishka</Shipper>
+    <ShipperAdd>fds</ShipperAdd>
+    <Consignee>Colombo Logistics World</Consignee>
+    <ConsigneeAdd>dsf</ConsigneeAdd>
+    <NotifyParty>Colombo Logistics World</NotifyParty>
+    <NotifyPartyAdd>sdg</NotifyPartyAdd>
+    <MarksandNumbers>twryr</MarksandNumbers>
+    <Description>turrertg</Description>
+    <GrossWeight>85.2</GrossWeight>
+    <NetWeight>80</NetWeight>
+    <NoOfPackages>2</NoOfPackages>
+    <ETA>2019-11-22T00:00:00+05:30</ETA>
+    <SOBDate>2019-11-21T00:00:00+05:30</SOBDate>
+    <POL>ds</POL>
+    <POD>fdfg</POD>
+    <Vesel>abc</Vesel>
+    <Voyage>1812</Voyage>
+    <createddate>2019-11-22T11:59:34.24+05:30</createddate>
+    <updateddate>2019-11-22T11:59:34.24+05:30</updateddate>
+  </Table>
+  <Table>
+    <BLID>3</BLID>
+    <JobNo>1</JobNo>
+    <BLNo>dfgd</BLNo>
+    <Shipper>Avishka</Shipper>
+    <ShipperAdd>fds</ShipperAdd>
+    <Consignee>Colombo Logistics World</Consignee>
+    <ConsigneeAdd>dsf</ConsigneeAdd>
+    <NotifyParty>Colombo Logistics World</NotifyParty>
+    <NotifyPartyAdd>sdg</NotifyPartyAdd>
+    <MarksandNumbers>twryr</MarksandNumbers>
+    <Description>turrertg</Description>
+    <GrossWeight>85.2</GrossWeight>
+    <NetWeight>80</NetWeight>
+    <NoOfPackages>2</NoOfPackages>
+    <ETA>2019-11-22T00:00:00+05:30</ETA>
+    <SOBDate>2019-11-21T00:00:00+05:30</SOBDate>
+    <POL>ds</POL>
+    <POD>fdfg</POD>
+    <Vesel>abc</Vesel>
+    <Voyage>1812</Voyage>
+    <createddate>2019-11-22T12:01:18.153+05:30</createddate>
+    <updateddate>2019-11-22T12:01:18.153+05:30</updateddate>
+  </Table>
+</NewDataSet>
