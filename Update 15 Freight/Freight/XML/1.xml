@@ -1,0 +1,98 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <JobID>1</JobID>
+    <ManifestType>Degroup</ManifestType>
+    <JobType>Import</JobType>
+    <ModeOfTransport>Sea Transport</ModeOfTransport>
+    <MasterBL>sdfgdh</MasterBL>
+    <Currency>USD</Currency>
+    <ExRate>185</ExRate>
+    <Vessel>1812</Vessel>
+    <Voyage>abc</Voyage>
+    <ETA>1899-12-11T00:00:00+05:30</ETA>
+    <SubManifest>xdzsg</SubManifest>
+    <POL>gfd</POL>
+    <POD>dfh</POD>
+    <SOB>2019-11-21T00:00:00+05:30</SOB>
+    <NoOfHBL>2</NoOfHBL>
+    <NoOfPackages>123</NoOfPackages>
+    <NoOfContainers>2</NoOfContainers>
+    <TotalGrossWeight>45</TotalGrossWeight>
+    <CreateDate>2019-11-22T09:55:17.617+05:30</CreateDate>
+    <UpdatedDate>2019-11-22T09:55:17.617+05:30</UpdatedDate>
+  </Table>
+  <Table1>
+    <BLID>1</BLID>
+    <JobNo>1</JobNo>
+    <BLNo>das</BLNo>
+    <Shipper>Avishka</Shipper>
+    <ShipperAdd>vffyh</ShipperAdd>
+    <Consignee>Colombo Logistics World</Consignee>
+    <ConsigneeAdd>hgghf</ConsigneeAdd>
+    <NotifyParty>Colombo Logistics World</NotifyParty>
+    <NotifyPartyAdd>hfhg</NotifyPartyAdd>
+    <MarksandNumbers>dgss</MarksandNumbers>
+    <Description>cxgv</Description>
+    <GrossWeight>85.2</GrossWeight>
+    <NetWeight>80</NetWeight>
+    <NoOfPackages>2</NoOfPackages>
+    <ETA>1899-12-11T00:00:00+05:30</ETA>
+    <SOBDate>2019-11-21T00:00:00+05:30</SOBDate>
+    <POL>csz</POL>
+    <POD>das</POD>
+    <Vesel>abc</Vesel>
+    <Voyage>1812</Voyage>
+    <createddate>2019-11-22T11:29:51.233+05:30</createddate>
+    <updateddate>2019-11-22T12:27:58.08+05:30</updateddate>
+    <ContainerNO>abcd1234567</ContainerNO>
+  </Table1>
+  <Table1>
+    <BLID>2</BLID>
+    <JobNo>1</JobNo>
+    <BLNo>dfgd</BLNo>
+    <Shipper>Avishka</Shipper>
+    <ShipperAdd>fds</ShipperAdd>
+    <Consignee>Colombo Logistics World</Consignee>
+    <ConsigneeAdd>dsf</ConsigneeAdd>
+    <NotifyParty>Colombo Logistics World</NotifyParty>
+    <NotifyPartyAdd>sdg</NotifyPartyAdd>
+    <MarksandNumbers>twryr</MarksandNumbers>
+    <Description>turrertg</Description>
+    <GrossWeight>85.2</GrossWeight>
+    <NetWeight>80</NetWeight>
+    <NoOfPackages>2</NoOfPackages>
+    <ETA>2019-11-22T00:00:00+05:30</ETA>
+    <SOBDate>2019-11-21T00:00:00+05:30</SOBDate>
+    <POL>ds</POL>
+    <POD>fdfg</POD>
+    <Vesel>abc</Vesel>
+    <Voyage>1812</Voyage>
+    <createddate>2019-11-22T11:59:34.24+05:30</createddate>
+    <updateddate>2019-11-22T11:59:34.24+05:30</updateddate>
+  </Table1>
+  <Table1>
+    <BLID>3</BLID>
+    <JobNo>1</JobNo>
+    <BLNo>dfgd</BLNo>
+    <Shipper>Avishka</Shipper>
+    <ShipperAdd>fds</ShipperAdd>
+    <Consignee>Colombo Logistics World</Consignee>
+    <ConsigneeAdd>dsf</ConsigneeAdd>
+    <NotifyParty>Colombo Logistics World</NotifyParty>
+    <NotifyPartyAdd>sdg</NotifyPartyAdd>
+    <MarksandNumbers>twryr</MarksandNumbers>
+    <Description>turrertg</Description>
+    <GrossWeight>85.2</GrossWeight>
+    <NetWeight>80</NetWeight>
+    <NoOfPackages>2</NoOfPackages>
+    <ETA>2019-11-22T00:00:00+05:30</ETA>
+    <SOBDate>2019-11-21T00:00:00+05:30</SOBDate>
+    <POL>ds</POL>
+    <POD>fdfg</POD>
+    <Vesel>abc</Vesel>
+    <Voyage>1812</Voyage>
+    <createddate>2019-11-22T12:01:18.153+05:30</createddate>
+    <updateddate>2019-11-22T12:01:18.153+05:30</updateddate>
+  </Table1>
+</NewDataSet>
